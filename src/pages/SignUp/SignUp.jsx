@@ -2,6 +2,7 @@ import React from "react";
 
 import "../SignIn/SignIn.css";
 import closeCircle from "../../assets/Signin&upImg/close-circular-button-symbol.png";
+
 const SignUp = () => {
   return (
     <div className="sign-in">

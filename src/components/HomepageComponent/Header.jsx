@@ -1,14 +1,13 @@
 import React from "react";
 import heroImg from "../../assets/Hero.png";
-import Passions from "./Passions";
 
 const Header = () => {
   return (
     <>
     <div className="header">
-      <div className="header-profile">
-        <div className="text-profile">
-          <p id="profile-text">
+      <div className="header-profile-home">
+        <div className="text-profile-head">
+          <p id="header-profile-text">
             <span>Hi!</span>
             <br />
             <b>

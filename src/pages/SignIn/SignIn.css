@@ -214,19 +214,3 @@ color: #FFFFFF;
 .card_info {
   padding-bottom: 20px;
 }
-p{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 20px;
-  /* identical to box height */
-  
-  
-  color: #ADADAD;
-  
-  
-}
-a:hover{
-color: black;
-}
