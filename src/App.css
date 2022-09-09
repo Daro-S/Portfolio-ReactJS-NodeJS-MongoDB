@@ -1,0 +1,162 @@
+body{
+    background-image: url("./assets/");
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .logo p{
+    width: 162px;
+height: 38px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 38px;
+padding: 0px 0px 0px 40px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.205em;
+
+color: #002265;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.nav .nav-items li{
+    list-style-type: none;
+    display:inline-block;
+    margin: 0px 30px 0px ;
+    font-size: 25px;
+}
+
+.contact-btn:hover{
+    cursor: pointer;
+}
+
+.nav .nav-items li:hover{
+    cursor: pointer;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 0px;
+}
+.contact-btn{
+    border-radius: 5px;
+    padding:10px;
+    background-color: rgb(96, 138, 245);
+    outline: none;
+    border:none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.text-profile{
+    justify-content: center;
+    margin: 0px 0px 0px 45px;
+    width: 50%;
+}
+.header-profile {
+    display: flex;
+}
+#profile-text{
+    font-size: 50px;
+    color: #002265;
+}
+.text-profile span{
+    font-size: 30px;
+}
+.header img{
+    width: 30%;
+}
+.item-container{
+    padding: 2px 16px;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 10px;
+    padding: 0px 30px 0px ;
+}card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 10px;
+    padding: 0px 30px 0px ;
+}
+img:hover{
+    cursor: pointer;
+}
+.passion-items img{
+    width: 100%;
+}
+.passion-items{
+    display: flex;
+    padding: 50px 0px 0px 60px;
+    justify-content: space-evenly;
+}
+
+.passion-container-a .text-title{
+    text-align: center;
+}
+
+#text-title-a{
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 0.055em;
+    color: #14279B;
+}
+#text-title-b{
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: 0.055em;
+    color: #14279B;
+}
+.passion-container-a{
+    padding-bottom: 150px;
+    padding-top: 20px;
+}
+.passion-container .text-title{
+    text-align: center;
+}
+
+.passion-container{
+    padding-bottom: 150px;
+    padding-top: 20px;
+}
+.card-contact {
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 10px;
+    padding: 0px 30px 0px ;
+}
+
+.footer img{
+    width: 100%;
+    z-index: 0;
+}
+
+
+
+
+
+
