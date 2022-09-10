@@ -1,8 +1,8 @@
-body .sign-in {
+.sign-in{
   background-image: url("../../assets/Signin&upImg/backgImg.png");
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .sign-in .logo{
     padding: 19px 0px 0px 50px;
@@ -172,6 +172,8 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
+cursor: pointer;
+width: 400px;
 /* identical to box height */
 
 
@@ -214,11 +216,8 @@ color: #FFFFFF;
 .sign-in .card_info {
   padding-bottom: 20px;
 }
-.sign-in p{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 20px;
-  color: #ADADAD;
+.sign-in .login-input a{
+  cursor: default;
 }
+
+

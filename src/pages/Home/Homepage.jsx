@@ -1,5 +1,6 @@
 import React from "react";
 
+import "./Homepage.css"
 import Navbar from "../../components/HomepageComponent/Navbar";
 import Header from "../../components/HomepageComponent/Header";
 import Passions from "../../components/HomepageComponent/Passions";

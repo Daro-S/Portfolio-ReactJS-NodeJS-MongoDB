@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./SignIn.css";
 import google from "../../assets/Signin&upImg/google.png";
@@ -24,7 +25,11 @@ const SignIn = () => {
         <div className="login-elements">
         <div className="login-header-text">
           <p1>Welcome to <span>WeChii</span></p1>
-          <span>No Account? <a id= "link" href="#"><p1>Sign up</p1></a></span>
+          <span>No Account? <a id= "link" href="#">
+            <Link to={'/signup'}>
+            <p1>Sign up</p1>
+            </Link>
+            </a></span>
         </div>
         <div className="login-signin">
           Sign in
@@ -56,10 +61,12 @@ const SignIn = () => {
           </label>
           <br />
           <input type="password" placeholder="   password" />
-          <a href="#"><p1 id="forgot-pass">Forgot Password</p1></a>
-          <button className="submit-btn">
-            Sign in
-          </button>
+          <a href="#"><span>Forgot Password</span></a>
+          <Link to="/">
+            <button className="submit-btn">
+              Sign in
+            </button>
+            </Link>
         </div>
       </div>
       </div>

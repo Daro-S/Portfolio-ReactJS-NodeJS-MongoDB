@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "../SignIn/SignIn.css";
 import closeCircle from "../../assets/Signin&upImg/close-circular-button-symbol.png";
@@ -21,7 +22,11 @@ const SignUp = () => {
         <div className="login-elements">
         <div className="login-header-text">
           <p1>Welcome to <span>WeChii</span></p1>
-          <span>Have an Account? <a href="#"><p1>Sign in</p1></a></span>
+          <span>Have an Account? <a href="#">
+            <Link to={"/signin"}>
+            <p1>Sign in</p1>
+            </Link>
+            </a></span>
         </div>
         <div className="login-signin">
           Sign Up
