@@ -24,7 +24,7 @@ const SignIn = () => {
         <div className="login-elements">
         <div className="login-header-text">
           <p1>Welcome to <span>WeChii</span></p1>
-          <span>No Account? <a href="#"><p1>Sign up</p1></a></span>
+          <span>No Account? <a id= "link" href="#"><p1>Sign up</p1></a></span>
         </div>
         <div className="login-signin">
           Sign in

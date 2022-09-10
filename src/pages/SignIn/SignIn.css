@@ -1,10 +1,10 @@
-body {
+body .sign-in {
   background-image: url("../../assets/Signin&upImg/backgImg.png");
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.logo{
+.sign-in .logo{
     padding: 19px 0px 0px 50px;
     font-family: 'Poppins';
     font-style: normal;
@@ -14,7 +14,7 @@ body {
     color: #FFFFFF;
 }
 
-.login-signin{
+.sign-in .login-signin{
   margin-bottom: 5px;
   font-family: 'Poppins';
   font-style: normal;
@@ -22,7 +22,7 @@ body {
   font-size: 55px;
   line-height: 82px;
 }
-.login-container {
+.sign-in .login-container {
   flex:1;
   max-height: 741px;
   background: white;
@@ -30,16 +30,16 @@ body {
   border-radius: 40px;
 
 }
-.login-header-text span{
+.sign-in .login-header-text span{
   margin-top: 6px;
   margin-left: auto;
 }
 
-.login-header-text{
+.sign-in .login-header-text{
   display: flex;
   flex-wrap: wrap;
 }
-.login-header-text p1{
+.sign-in .login-header-text p1{
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -47,23 +47,23 @@ font-size: 21px;
 line-height: 32px;
 }
 
-.login-elements{
+.sign-in .login-elements{
   display: flex;
   flex-direction: column;
   justify-content: start;
   padding: 50px;
 }
-.header{
+.sign-in .header{
     display: flex;
 }
 
-.text-container{
+.sign-in .text-container{
     
     margin-left: 73px;
     margin-top: 70px;
 }
 
-.text-container p {
+.sign-in .text-container p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 00;
@@ -71,7 +71,7 @@ line-height: 32px;
   line-height: 36px;
 }
 
-.text-container span{
+.sign-in .text-container span{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
@@ -80,22 +80,22 @@ line-height: 32px;
     color: #FFFFFF;
 }
 
-#header{
+.sign-in #header{
    font-weight: 600px;
   font-size: 70px;
   line-height: 51px;
   color: #FFFFFF;
 }
 
-.login-header-text a{
+.sign-in .login-header-text a{
     text-decoration: none;
 }
 
-.google>img{
+.sign-in .google>img{
   width: 26px;
   height: 26px;
 }
-.google>p{
+.sign-in .google>p{
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -107,15 +107,15 @@ line-height: 24px;
 color: #4285F4;
 }
 
-.google{
+.sign-in .google{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.small-btn{
+.sign-in .small-btn{
   margin-left: auto;
 }
-.signin-btn button{
+.sign-in .signin-btn button{
   border-radius: 9px;
   flex:0.85; 
   height: 55px;
@@ -124,44 +124,44 @@ color: #4285F4;
   border:none;
 }
 
-#icon{
+.sign-in #icon{
   width: 26px;
   height: 26px;
 }
-#FA-icon{
+.sign-in #FA-icon{
   width: 60px;
   height: 55px;
 }
 
-.signin-btn{
+.sign-in .signin-btn{
   display: flex;
   margin-bottom: 30px;
 }
-.login-input{
+.sign-in .login-input{
   display: flex;
   flex-direction: column;
 }
-.login-input input{
+.sign-in .login-input input{
   background: #FFFFFF;
   border: 1px solid #ADADAD;
   border-radius: 9px;
   box-sizing: border-box;
   height: 51px;
 }
-a {
+ .sign-in a {
   padding: 0px 0px 25px;
   display: flex;
   justify-content: flex-end;
   text-decoration: none;
   
 }
-.user-name-tel{
+.sign-in .user-name-tel{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.submit-btn{
+.sign-in .submit-btn{
   background: #0089ED;
   border: none;
   border-radius: 9px;
@@ -182,7 +182,7 @@ color: #FFFFFF;
 } */
 
 
-.card {
+.sign-in .card {
   border: 1px solid #ddd;
   border-radius: 6px;
   max-width: 145px;
@@ -190,18 +190,18 @@ color: #FFFFFF;
   background-color: #EFF8FF;
   height: 250px;
 }
-.card_img {
+.sign-in .card_img {
   width: 120px;
   height: 120px;
   overflow: hidden;
   border-radius: 100%;
   margin: 25px auto 0;
 }
-.card button img{
+.sign-in .card button img{
   border: none;
   width: 16px
 }
-.card button{
+.sign-in .card button{
   border: none;
   background-color: #EFF8FF;
 }
@@ -211,22 +211,14 @@ color: #FFFFFF;
   height: 100%;
   object-fit: cover;
 }
-.card_info {
+.sign-in .card_info {
   padding-bottom: 20px;
 }
-p{
+.sign-in p{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
   font-size: 13px;
   line-height: 20px;
-  /* identical to box height */
-  
-  
   color: #ADADAD;
-  
-  
-}
-a:hover{
-color: black;
 }
